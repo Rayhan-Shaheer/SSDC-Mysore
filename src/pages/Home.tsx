@@ -9,10 +9,18 @@ import DirectorMessage from '@/components/DirectorMessage'
 import CourseGrid from '@/components/CourseGrid'
 import CorporateCTA from '@/components/CorporateCTA'
 import { ArrowRight, Sparkles } from 'lucide-react'
+import WhatsAppButton from '@/components/WhatsAppButton'
+import Testimonials from '@/components/Testimonials'
+import SEO from '@/components/SEO'
 
 export default function Home() {
   return (
     <PageTransition>
+      <SEO
+        title="Home"
+        description="Sahar Skill Development Center — Authorized ISDM franchise in Rajivnagar, Mysuru. NDT, ITI, Technical and job-oriented courses with 100% placement support."
+        url="/"
+      />
       {/* 1. Hero Section */}
       <Hero />
       
@@ -76,9 +84,15 @@ export default function Home() {
 
         </div>
       </section>
+      
+      {/* 7. Student Testimonials */}
+      <Testimonials />
 
-      {/* 7. Corporate Assessment Center CTA */}
+      {/* 8. Corporate Assessment Center CTA */}
       <CorporateCTA />
+
+      {/* WhatsApp Floating Button */}
+      <WhatsAppButton />
 
     </PageTransition>
   )

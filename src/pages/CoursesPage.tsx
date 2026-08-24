@@ -2,6 +2,7 @@ import PageTransition from '@/components/PageTransition'
 import CourseGrid from '@/components/CourseGrid'
 import { Info, HelpCircle, CheckSquare } from 'lucide-react'
 import { useNavigate } from 'react-router-dom'
+import SEO from '@/components/SEO'
 
 export default function CoursesPage() {
   const navigate = useNavigate()
@@ -15,6 +16,11 @@ export default function CoursesPage() {
 
   return (
     <PageTransition>
+      <SEO
+        title="Courses"
+        description="Explore Technical, ITI, NDT, Job-Oriented and Computer courses at SSDC Mysore. Industry-aligned programs for BE, Diploma and ITI graduates in Mysuru."
+        url="/courses"
+      />
       
       {/* Page Header */}
       <div className="bg-slate-900 text-white py-16 sm:py-20 relative overflow-hidden">

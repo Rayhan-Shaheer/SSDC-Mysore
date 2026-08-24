@@ -1,10 +1,15 @@
 import PageTransition from '@/components/PageTransition'
 import Contact from '@/components/Contact'
+import SEO from '@/components/SEO'
 
 export default function ContactPage() {
   return (
     <PageTransition>
-      
+      <SEO
+        title="Contact Us"
+        description="Contact Sahar Skill Development Center at Rajivnagar, Mysuru. Call +91 9008819502 or visit us near Al Badar Circle."
+        url="/contact"
+      />
       {/* Page Header */}
       <div className="bg-slate-900 text-white py-16 sm:py-20 relative overflow-hidden">
         <div className="absolute inset-0 bg-primary/10 blur-3xl -z-10" />

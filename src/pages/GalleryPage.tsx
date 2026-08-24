@@ -1,10 +1,15 @@
 import PageTransition from '@/components/PageTransition'
 import Gallery from '@/components/Gallery'
+import SEO from '@/components/SEO'
 
 export default function GalleryPage() {
   return (
     <PageTransition>
-      
+      <SEO
+        title="Gallery"
+        description="Browse photos and videos from SSDC Mysore training sessions, workshops, student batches, and practical demonstrations."
+        url="/gallery"
+      />
       {/* Page Header */}
       <div className="bg-slate-900 text-white py-16 sm:py-20 relative overflow-hidden">
         <div className="absolute inset-0 bg-primary/10 blur-3xl -z-10" />

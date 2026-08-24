@@ -1,10 +1,16 @@
 import PageTransition from '@/components/PageTransition'
 import InquiryForm from '@/components/InquiryForm'
 import { ClipboardList } from 'lucide-react'
+import SEO from '@/components/SEO'
 
 export default function AdmissionPage() {
   return (
     <PageTransition>
+      <SEO
+        title="Student Admission"
+        description="Apply for admission at SSDC Mysore. Submit your inquiry for NDT, ITI, Technical or job-oriented courses in Mysuru. Admissions open now."
+        url="/admission"
+      />
       {/* Page Header */}
       <div className="bg-slate-900 text-white py-16 sm:py-20 relative overflow-hidden">
         <div className="absolute inset-0 bg-primary/10 blur-3xl -z-10" />

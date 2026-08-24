@@ -2,11 +2,16 @@ import PageTransition from '@/components/PageTransition'
 import Mission from '@/components/Mission'
 import Vision from '@/components/Vision'
 import { Award, Landmark, ShieldCheck, CheckCircle2, Heart } from 'lucide-react'
+import SEO from '@/components/SEO'
 
 export default function AboutPage() {
   return (
     <PageTransition>
-      
+      <SEO
+        title="About Us"
+        description="Learn about Sahar Skill Development Center — a non-profit ISDM registered institute in Rajivnagar, Mysuru, dedicated to vocational training and youth employment."
+        url="/about"
+      />
       {/* Page Header */}
       <div className="bg-slate-900 text-white py-16 sm:py-20 relative overflow-hidden">
         <div className="absolute inset-0 bg-primary/10 blur-3xl -z-10" />
