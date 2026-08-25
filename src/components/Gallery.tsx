@@ -1,6 +1,7 @@
 import { useState, useEffect, useCallback } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import { Play, Image as ImageIcon, X, Video, ChevronLeft, ChevronRight, ZoomIn } from 'lucide-react'
+//import { Play, Image as ImageIcon, X, Video, ChevronLeft, ChevronRight, ZoomIn } from 'lucide-react'
+import { Play, Image as ImageIcon, X, ChevronLeft, ChevronRight, ZoomIn } from 'lucide-react'
 
 interface GalleryItem {
   id: number
