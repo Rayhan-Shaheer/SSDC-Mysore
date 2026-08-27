@@ -12,6 +12,14 @@ dist
 dist-ssr
 *.local
 
+# Environment / secrets (.env.local is already covered by *.local)
+.env
+.env.*
+!.env.example
+
+# Local working notes, not for the public repo
+claude-chat-export.txt
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
