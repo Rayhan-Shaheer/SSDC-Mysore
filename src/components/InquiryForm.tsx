@@ -2,15 +2,15 @@ import React, { useState } from 'react'
 import emailjs from '@emailjs/browser'
 import confetti from 'canvas-confetti'
 import { motion, AnimatePresence } from 'framer-motion'
-import { Send, FileText, CheckCircle2, AlertCircle, User, MapPin, Phone } from 'lucide-react'
+import { Send, CheckCircle2, AlertCircle, User, MapPin, Phone } from 'lucide-react'
 
 // ─── EmailJS Configuration ────────────────────────────────────────────────────
-const EMAILJS_SERVICE_ID  = 'service_8gltv2a'
-const EMAILJS_TEMPLATE_1  = 'template_fvji2sr'  // Admin notification
-const EMAILJS_TEMPLATE_2  = 'template_dxa5kdo'  // Student auto-reply
-const EMAILJS_PUBLIC_KEY  = 'acR9H9AuiTdKQ0-4D'
-const ADMIN_EMAIL         = 'basheer@ssdcmysore.com'
-const CC_EMAIL            = 'saharcomputeracademy@gmail.com'
+const EMAILJS_SERVICE_ID  = import.meta.env.VITE_EMAILJS_SERVICE_ID
+const EMAILJS_TEMPLATE_1  = import.meta.env.VITE_EMAILJS_TEMPLATE_1
+const EMAILJS_TEMPLATE_2  = import.meta.env.VITE_EMAILJS_TEMPLATE_2
+const EMAILJS_PUBLIC_KEY  = import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+const ADMIN_EMAIL         = import.meta.env.VITE_ADMIN_EMAIL
+const CC_EMAIL            = import.meta.env.VITE_CC_EMAIL
 // ─────────────────────────────────────────────────────────────────────────────
 
 interface FormState {
