@@ -9,9 +9,10 @@ import DirectorMessage from '@/components/DirectorMessage'
 import CourseGrid from '@/components/CourseGrid'
 import CorporateCTA from '@/components/CorporateCTA'
 import { ArrowRight, Sparkles } from 'lucide-react'
-import WhatsAppButton from '@/components/WhatsAppButton'
+//import WhatsAppButton from '@/components/WhatsAppButton'
 import Testimonials from '@/components/Testimonials'
 import SEO from '@/components/SEO'
+//import ChatBot from '@/components/ChatBot'
 
 export default function Home() {
   return (
@@ -90,9 +91,6 @@ export default function Home() {
 
       {/* 8. Corporate Assessment Center CTA */}
       <CorporateCTA />
-
-      {/* WhatsApp Floating Button */}
-      <WhatsAppButton />
 
     </PageTransition>
   )

@@ -31,7 +31,8 @@ export default function About() {
           <motion.div variants={itemVariants} className="lg:col-span-5 relative group">
             <div className="absolute inset-0 bg-primary/5 rounded-3xl transform translate-x-3 translate-y-3 -z-10 group-hover:translate-x-1 group-hover:translate-y-1 transition-transform duration-300" />
             <img
-              src="https://center.isdmgroup.in/wp-content/uploads/2023/10/SSDC-923x1024.jpg"
+              //src="https://center.isdmgroup.in/wp-content/uploads/2023/10/SSDC-923x1024.jpg"
+              src="/ssdcmysore_logo.jpg"
               alt="Sahar Skill Development Center Flyer"
               className="w-full h-auto rounded-3xl shadow-xl border border-gray-100 object-cover transform transition-transform duration-500 hover:scale-[1.01]"
               loading="lazy"

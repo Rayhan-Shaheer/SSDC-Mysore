@@ -29,12 +29,12 @@ export default function SEO({ title, description, keywords, url }: SEOProps) {
       <meta property="og:description" content={metaDesc} />
       <meta property="og:type" content="website" />
       <meta property="og:url" content={metaUrl} />
-      <meta property="og:image" content="https://center.isdmgroup.in/wp-content/uploads/2023/10/SSDC-923x1024.jpg" />
+      <meta property="og:image" content="https://www.ssdcmysore.com/ssdcmysore_logo.jpg" />
       <meta property="og:site_name" content="SSDC Mysore" />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content={fullTitle} />
       <meta name="twitter:description" content={metaDesc} />
-      <meta name="twitter:image" content="https://center.isdmgroup.in/wp-content/uploads/2023/10/SSDC-923x1024.jpg" />
+      <meta name="twitter:image" content="https://www.ssdcmysore.com/ssdcmysore_logo.jpg" />
       <script type="application/ld+json">{JSON.stringify({
         "@context": "https://schema.org",
         "@type": "EducationalOrganization",
