@@ -29,9 +29,9 @@ const items: GalleryItem[] = [
   { id: 15, type: 'image', url: 'https://center.isdmgroup.in/wp-content/uploads/2022/10/IMG_1089-828x828.jpg', caption: 'Classroom Activities Overview', category: 'Classroom' },
   { id: 16, type: 'image', url: 'https://center.isdmgroup.in/wp-content/uploads/2022/12/PHOTO-2022-12-16-21-53-36-1-641x641.jpg', caption: 'Certified Course Batch Photo', category: 'Batch' },
   { id: 17, type: 'image', url: 'https://center.isdmgroup.in/wp-content/uploads/2022/12/PHOTO-2022-12-16-21-53-36-2-653x653.jpg', caption: 'SSDC Mysore Student Group', category: 'Batch' },
-  { id: 18, type: 'image', url: '/gallery/certificate_1.jpg', caption: 'Mohammed Maaz — TWG International Certificate', category: 'Batch' },  
-  { id: 19, type: 'image', url: '/gallery/certificate_2.jpg', caption: 'Mohammed Maaz — Professional Skills Certificate', category: 'Batch' },
-  { id: 20, type: 'image', url: '/gallery/accountning_tally.jpg', caption: 'Accounting & Tally Prime Course — SSDC Mysore', category: 'Training' },
+  { id: 18, type: 'image', url: '/gallery/Certificate_issued_1.jpg', caption: 'Mohammed Maaz — TWG International Certificate', category: 'Batch' },
+  { id: 19, type: 'image', url: '/gallery/Certificate_issued_2.jpg', caption: 'Mohammed Maaz — Professional Skills Certificate', category: 'Batch' },
+  { id: 20, type: 'image', url: '/gallery/accountning_Tally.jpg', caption: 'Accounting & Tally Prime Course — SSDC Mysore', category: 'Training' },
   { id: 21, type: 'video', url: '/gallery/tally_course_video.mp4', caption: 'Accounting & Tally Training Session', category: 'Training' },
 ]
 
