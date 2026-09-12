@@ -13,12 +13,12 @@ export default function CourseGrid() {
       colorClass: 'text-blue-600',
       bgLightClass: 'bg-blue-50',
       courses: [
-        'AutoCAD (2D/3D)',
-        'SolidWorks Design',
-        'Revit Architecture',
-        'Civil Drafting',
-        'Mechanical Drafting',
-        'Electrical Layouts',
+          'MS Office & Advanced Excel',
+          'Tally Prime with GST (TWG Certified)',
+          'Accounting & Finance Basics',
+          'Web Design (HTML/CSS)',
+          'Graphic Design basics',
+          'DCA Computer Diploma',
       ],
     },
     {
